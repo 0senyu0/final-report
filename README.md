@@ -28,4 +28,4 @@
 火車站售票系統將由四部組成:
 線上訂票客戶系統,售票員服務系統,系統管理員系統、資料庫伺服器管理系統。
 ### 系統數據流程圖:
-![]
+![](https://github.com/0senyu0/final-report/blob/main/%E7%B3%BB%E7%B5%B1%E6%95%B8%E6%93%9A%E6%B5%81%E7%A8%8B%E5%9C%96.drawio.svg)
