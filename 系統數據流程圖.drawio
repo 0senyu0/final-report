@@ -1,68 +1,230 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T03:34:24.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eR3LzBUrcPSfnolSUTon" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T12:41:39.217Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IaLaG4hn6tg4_D_wdQTt" version="22.1.15" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="880" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-0" value="售票人員" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-0" value="售票人員" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="100" y="128" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-1" value="旅客" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-1" value="旅客" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="100" y="340" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-2" value="售票管理系統" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-2" value="售票管理系統" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="330" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-4" value="班次表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-4" value="班次表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="540" y="128" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-4" target="Nltu29jrl3oHz8MLC5wq-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="350" as="sourcePoint" />
-            <mxPoint x="630" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-8" value="旅客登記表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-8" value="旅客登記表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="540" y="360" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-8" target="Nltu29jrl3oHz8MLC5wq-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="320" as="sourcePoint" />
-            <mxPoint x="440" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.05;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-0" target="Nltu29jrl3oHz8MLC5wq-2">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.05;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-0" target="Nltu29jrl3oHz8MLC5wq-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="320" as="sourcePoint" />
             <mxPoint x="400" y="207" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-1" target="Nltu29jrl3oHz8MLC5wq-2">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-1" target="Nltu29jrl3oHz8MLC5wq-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="320" as="sourcePoint" />
             <mxPoint x="440" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-13" value="旅客信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-13" value="旅客信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="235" y="170" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-14" value="查詢班次信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-14" value="查詢班次信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="360" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-2" target="Nltu29jrl3oHz8MLC5wq-4">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-2" target="Nltu29jrl3oHz8MLC5wq-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="320" as="sourcePoint" />
             <mxPoint x="440" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-2" target="Nltu29jrl3oHz8MLC5wq-8">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nltu29jrl3oHz8MLC5wq-2" target="Nltu29jrl3oHz8MLC5wq-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="320" as="sourcePoint" />
             <mxPoint x="440" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nltu29jrl3oHz8MLC5wq-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;頂層數據流程圖&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Nltu29jrl3oHz8MLC5wq-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;頂層數據流程圖&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="305" y="390" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-0" value="售票人員" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-1" value="旅客" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-3" value="讀入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-4" value="信息處理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-5" value="輸出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-6" value="班次表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="840" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-7" value="旅客信息表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="840" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-9" value="旅客信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="540" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-10" value="班次信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="680" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-0" target="BKYL04uw4Kb8HMNqjhvt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.45;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-1" target="BKYL04uw4Kb8HMNqjhvt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-3" target="BKYL04uw4Kb8HMNqjhvt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-4" target="BKYL04uw4Kb8HMNqjhvt-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-5" target="BKYL04uw4Kb8HMNqjhvt-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-5" target="BKYL04uw4Kb8HMNqjhvt-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-17" value="旅客登記信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-18" value="信息總表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="425" y="570" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-19" value="被查詢班次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-21" value="班次信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="770" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-22" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;第一層數據流程圖&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="304" y="920" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-23" value="售票人員" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="990" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-24" value="旅客" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="1100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-25" value="讀入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-26" value="購票處理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="495" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-27" value="退票處理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="495" y="1108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-28" value="輸出旅客信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-29" value="輸出班次信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="495" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-30" value="班次表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="1370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-31" value="旅客信息表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="665" y="1370" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-23" target="BKYL04uw4Kb8HMNqjhvt-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1130" as="sourcePoint" />
+            <mxPoint x="440" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-24" target="BKYL04uw4Kb8HMNqjhvt-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1130" as="sourcePoint" />
+            <mxPoint x="440" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-25" target="BKYL04uw4Kb8HMNqjhvt-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1030" as="sourcePoint" />
+            <mxPoint x="440" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-25" target="BKYL04uw4Kb8HMNqjhvt-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1030" as="sourcePoint" />
+            <mxPoint x="440" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-27" target="BKYL04uw4Kb8HMNqjhvt-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1030" as="sourcePoint" />
+            <mxPoint x="440" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-26" target="BKYL04uw4Kb8HMNqjhvt-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1030" as="sourcePoint" />
+            <mxPoint x="440" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-27" target="BKYL04uw4Kb8HMNqjhvt-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1030" as="sourcePoint" />
+            <mxPoint x="440" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-29" target="BKYL04uw4Kb8HMNqjhvt-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1430" as="sourcePoint" />
+            <mxPoint x="440" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BKYL04uw4Kb8HMNqjhvt-28" target="BKYL04uw4Kb8HMNqjhvt-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1430" as="sourcePoint" />
+            <mxPoint x="440" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-41" value="旅客信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="990" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-42" value="班次信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="1108" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-43" value="購票信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="990" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-44" value="退票信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1108" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKYL04uw4Kb8HMNqjhvt-45" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;第二層數據流程圖&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="1450" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
