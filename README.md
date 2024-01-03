@@ -43,5 +43,13 @@
 在輸入方面,對於鍵盤、滑鼠的輸入,使用標準輸入/輸出,對輸入進行處理。
 在輸出方面,印表機的連接及使用,也可標準輸入/輸出處理。在 網路傳輸部分,在網路硬體部分,為了實現高速傳輸,將使用高速ATM.
 ### 內部接口
-系統由六個模組組成,分別是查詢模組、售票模組、修改模組、退票模 區塊、統計模組、系統維護管理模組。其關係如下圖:
-![]()
+#### 系統由六個模組組成,分別是查詢模組、售票模組、修改模組、退票模 區塊、統計模組、系統維護管理模組。其關係如下圖:
+![](https://github.com/0senyu0/final-report/blob/main/%E6%A8%A1%E5%A1%8A%E9%97%9C%E4%BF%82%E5%9C%96.drawio.svg)
+#### 系統E-R圖如下:
+![](https://github.com/0senyu0/final-report/blob/main/%E7%B3%BB%E7%B5%B1E-R%E5%9C%96.drawio.svg)
+#### 列車時間E-R圖如下:
+![](https://github.com/0senyu0/final-report/blob/main/%E5%88%97%E8%BB%8A%E6%99%82%E9%96%93E-R%E5%9C%96.drawio.svg)
+#### 售票E-R圖如下:
+![](https://github.com/0senyu0/final-report/blob/main/%E5%94%AE%E7%A5%A8E-R%E5%9C%96.drawio.svg)
+## 5.物理結構設計
+### 物理結構設計要點
